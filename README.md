@@ -12,8 +12,8 @@ A simple, responsive, and fully functional Student Management System built using
 - 🔁 Logout / Exit functionality
 
 ## 🧩 Project Structure
-'''
 
+'''
 student-management-system/
 ├── index.html        # Main HTML file
 ├── styles.css        # Styling and layout (CSS)
