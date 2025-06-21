@@ -13,13 +13,13 @@ A simple, responsive, and fully functional Student Management System built using
 
 ## 🧩 Project Structure
 
-'''
+```
 student-management-system/
 ├── index.html        # Main HTML file
 ├── styles.css        # Styling and layout (CSS)
 ├── script.js         # Core logic and interactivity (JavaScript)
 └── README.md     
-'''
+```
 ## 📦 Tech Stack
 
 - Frontend: HTML5, CSS3, JavaScript (Vanilla)
