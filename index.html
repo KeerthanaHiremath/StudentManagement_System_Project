@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div id="login-screen" class="screen">
+        <h2>Login to Student Management System</h2>
+        <div class="avatar-container">
+            <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="User Avatar" class="avatar-large" />
+        </div>
+        <form id="login-form" class="login-form-vertical">
+            <div class="input-group-vertical">
+                <span class="input-icon">&#128274;</span>
+                <input type="password" id="password" placeholder="Password" required />
+            </div>
+            <div class="input-group-vertical">
+                <span class="input-icon">&#128100;</span>
+                <input type="text" id="username" placeholder="Username" required />
+            </div>
+            <button type="submit" class="login-btn-vertical">Login</button>
+        </form>
+        <p id="login-error" class="error-message"></p>
+    </div>
+
+    <div id="main-screen" class="screen hidden">
+        <h2>Welcome Student Management System</h2>
+        <div class="button-group">
+            <button id="add-btn">Add</button>
+            <button id="search-btn">Search</button>
+            <button id="update-btn" disabled>Update</button>
+            <button id="delete-btn" disabled>Delete</button>
+            <button id="show-btn">Show</button>
+            <button id="export-btn">Export Data</button>
+            <button id="exit-btn">Exit</button>
+        </div>
+
+        <div id="search-container" class="hidden">
+            <input type="text" id="search-input" placeholder="Search by name, id, or email" />
+            <button id="search-go-btn">Search</button>
+            <button id="search-clear-btn">Clear</button>
+        </div>
+
+        <table id="student-table">
+            <thead>
+                <tr>
+                    <th>Select</th>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Mobile Number</th>
+                    <th>Age</th>
+                    <th>Course</th>
+                    <th>Class</th>
+                    <th>Email</th>
+                    <th>Gender</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Student rows go here -->
+            </tbody>
+        </table>
+
+        <div id="form-container" class="hidden">
+            <h3 id="form-title">Add Student</h3>
+            <form id="student-form">
+                <label for="student-id">ID:</label>
+                <input type="text" id="student-id" required />
+                <label for="student-name">Name:</label>
+                <input type="text" id="student-name" required />
+                <label for="student-mobile">Mobile Number:</label>
+                <input type="text" id="student-mobile" required />
+                <label for="student-age">Age:</label>
+                <input type="number" id="student-age" min="1" required />
+                <label for="student-course">Course:</label>
+                <input type="text" id="student-course" required />
+                <label for="student-class">Class:</label>
+                <input type="text" id="student-class" required />
+                <label for="student-email">Email:</label>
+                <input type="email" id="student-email" required />
+                <label for="student-gender">Gender:</label>
+                <select id="student-gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+                <div class="form-buttons">
+                    <button type="submit" id="form-submit-btn">Add</button>
+                    <button type="button" id="form-cancel-btn">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
