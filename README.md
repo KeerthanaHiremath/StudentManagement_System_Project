@@ -2,14 +2,14 @@
 A simple, responsive, and fully functional Student Management System built using HTML, CSS, and JavaScript. This project allows admins to securely log in and perform CRUD operations (Create, Read, Update, Delete) on student data.
 
 ## 🚀 Features
-** 🔐 Admin login screen with hardcoded credentials (admin / password)
-** ➕ Add new student with required details
-** 🔍 Search students by ID, name, or email
-** ✏️ Update existing student data
-** ❌ Delete student records
-** 📋 View all student records in a responsive table
-** 📤 Export student data as CSV
-** 🔁 Logout / Exit functionality
+-  🔐 Admin login screen with hardcoded credentials (admin / password)
+- ➕ Add new student with required details
+- 🔍 Search students by ID, name, or email
+- ✏️ Update existing student data
+- ❌ Delete student records
+- 📋 View all student records in a responsive table
+- 📤 Export student data as CSV
+- 🔁 Logout / Exit functionality
 
 ## 🧩 Project Structure
 '''
