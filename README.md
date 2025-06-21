@@ -22,17 +22,17 @@ student-management-system/
 '''
 ## 📦 Tech Stack
 
-** Frontend: HTML5, CSS3, JavaScript (Vanilla)
-** Storage: In-memory (data is lost on refresh)
+- Frontend: HTML5, CSS3, JavaScript (Vanilla)
+-  Storage: In-memory (data is lost on refresh)
 
 ## 🧠 What I Learned
 
-** How to create responsive and interactive user interfaces using HTML, CSS, and JavaScript
-** DOM manipulation techniques for creating dynamic content
-** Managing form inputs, table rendering, and conditional UI elements
-** Implementing search and filter functionality
-** Exporting data as downloadable CSV
-** Writing clean, modular, and event-driven JavaScript code
-** Building a full functional UI without any frameworks
-** Styling forms and layout with custom CSS
-** Structuring code into maintainable blocks
+- How to create responsive and interactive user interfaces using HTML, CSS, and JavaScript
+- DOM manipulation techniques for creating dynamic content
+- Managing form inputs, table rendering, and conditional UI elements
+- Implementing search and filter functionality
+- Exporting data as downloadable CSV
+- Writing clean, modular, and event-driven JavaScript code
+- Building a full functional UI without any frameworks
+- Styling forms and layout with custom CSS
+- Structuring code into maintainable blocks
